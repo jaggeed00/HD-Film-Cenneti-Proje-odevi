@@ -1,0 +1,7 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule ^login.* login.php [NC]
+RewriteRule ^register.* register.php [NC]
+
+
+

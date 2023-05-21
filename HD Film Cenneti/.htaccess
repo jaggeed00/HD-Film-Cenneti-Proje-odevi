@@ -1,0 +1,13 @@
+Options +FollowSymlinks
+RewriteEngine on
+DirectoryIndex index.html index.php anasayfa.php
+RewriteRule ^index.*$ index.php [NC]
+RewriteRule ^anasayfa.* anasayfa.php [NC]
+RewriteRule ^anket.* anket.php [NC]
+RewriteRule ^blog.* blog.php [NC]
+RewriteRule ^iletisim.* iletisim.php [NC]
+RewriteRule ^kategoriler.* kategoriler.php [NC]
+RewriteRule ^login.* login.php [NC]
+RewriteRule ^register.* register.php [NC]
+
+
